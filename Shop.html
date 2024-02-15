@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css">
+    <link href="../src/output.css" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="./shop.css">
+
+<body>
+    <header>
+        <nav class="flex items-center justify-around flex-wrap w-full h-10">
+            <div class="logo font-bold ">Furniro</div>
+            <div class="menu flex gap-8  text-red-500"><a href="./Shop.html">Home</a><a href="./Shop1.html">Shop</a><a
+                    href="#about">About</a><a href="#contact">Contact</a></div>
+            <div class="utility flex items-center gap-5">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="searchInput">
+                <i class="fa-solid fa-search" id="searchIcon"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i></div>
+        </nav>
+    </header>
+    <main>
+       <div id="searchResults"></div>
+        <section class="first h-screen h-90 text-white w-full bg-violet-600">
+            <div class="container shop text-black flex flex-col p-3 bg-pink-200 h-fit">
+                <p>New Arrival</p>
+                <h2 class="text-yellow-600 text-2xl font-extrabold">Discover our <br> New Collection</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus officiis modi maiores omnis
+                    officia nihil cupiditate amet, possimus totam voluptatum. Illum molestiae modi odio repellat,
+                    perferendis ipsam ullam fugit minima?</p>
+                <button class="border-t-neutral-500 text-white font-bold bg-yellow-700 w-fit px-7 py-2">buy now</button>
+            </div>
+        </section>
+        <section class="second h-min flex flex-col p-8 items-center gap-2">
+            <div class="card-tab text-center w-full my-5">
+                <h2 class="font-bold m-4">Our Products</h2>
+                <div class="cards flex flex-row flex-wrap justify-around gap-5" id="cards">
+                    <div class="gallary bg-red-400"><img class="sub" src="./artificial-gardens-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Apple</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./living-hall-interior-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Capaciono</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./rams-velvet-arm-chair-in-royal-blue-colour-rams-velvet-arm-chair-in-royal-blue-colour-vqhmnq.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./tropical-interior-design-living-room-min.jpg" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./living-hall-interior-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./artificial-gardens-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./rams-velvet-arm-chair-in-royal-blue-colour-rams-velvet-arm-chair-in-royal-blue-colour-vqhmnq.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">hyperCharger</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 3,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./product-jpeg-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./tropical-interior-design-living-room-min.jpg" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                    <div class="gallary bg-red-400"><img class="sub" src="./artificial-gardens-500x500.webp" alt="imgaes">
+                        <div class="offer">-50%</div>
+                        <h3 class="font-extrabold">Syltherine</h3>
+                        <p class="det text-gray-300">Style cafe chair</p>
+                        <p class="price font-bold text-gray-950">Rp 2,500.000</p>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button onclick="showPage(1)">1</button>
+                    <button onclick="showPage(2)">2</button>
+                    <button onclick="showPage(3)">3</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="p-12">
+        <table class="w-full">
+            <tr>
+                <td>Funiro</td>
+                <td>Links</td>
+                <td>Help</td>
+                <td>Newslater</td>
+            </tr>
+            <tr>
+                <td>400 University side road<br>
+                    Lorem, ipsum dolor sit</td>
+                <td><a href="#home">Home</a></td>
+                <td>Payment Options</td>
+                <td><input type="text" placeholder="enter your email address"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Shop</td>
+                <td>Returns</td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>About</td>
+                <td>Privacy</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Contact</td>
+            </tr>
+        </table>
+        <p class="my-3"> 2023 furino.All rights reserved</p>
+    </footer>
+    <script src="./sample.js"></script>
+</body>
+
+</html>
